@@ -70,8 +70,7 @@ printf("%d",add(n));
 int add(struct numbers n)
 {
 return n.a+n.b;
-}
-```
+}```
 
 ### Output:
 ![Screenshot 2025-04-25 102345](https://github.com/user-attachments/assets/d5657521-abbf-4b66-87cb-16fe8cefd228)
@@ -110,8 +109,7 @@ char name[30]; scanf("%s",name);
 printf("%s File Created Successfully",name); p=fopen("name","w");
 printf("\n%s File Opened",name); fclose(p);
 printf("\n%s File Closed",name);
-}
-```
+}'''
 
 
 ### Output:
