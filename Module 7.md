@@ -34,6 +34,7 @@ else
 }
 ### Output:
 ![Screenshot 2025-04-25 101956](https://github.com/user-attachments/assets/fd8027ae-4049-42b4-851a-f6b51ee8c607)
+
 Result:
 Thus, the program is verified successfully. 
 
