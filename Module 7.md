@@ -15,6 +15,7 @@ Else
 6.	Return 0
  
 ### Program:
+```
 #include<stdio.h> struct eligib
 {
 int age; char n[4];
@@ -32,6 +33,7 @@ else
 }
  printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
 }
+```
 ### Output:
 ![Screenshot 2025-04-25 101956](https://github.com/user-attachments/assets/fd8027ae-4049-42b4-851a-f6b51ee8c607)
 
@@ -54,6 +56,7 @@ To write a C program for passing structure as function and returning a structure
 7.	Return 0
  
 ### Program:
+```
 #include<stdio.h> struct numbers
 {
 int a; int b;
@@ -68,6 +71,8 @@ int add(struct numbers n)
 {
 return n.a+n.b;
 }
+```
+
 ### Output:
 ![Screenshot 2025-04-25 102345](https://github.com/user-attachments/assets/d5657521-abbf-4b66-87cb-16fe8cefd228)
 
@@ -97,6 +102,7 @@ Use scanf to input the file name into the name array.
 5.	Return 0 to indicate successful program execution.
  
 ### Program:
+```
 #include <stdio.h> int main()
 {
 FILE *p;
@@ -105,6 +111,8 @@ printf("%s File Created Successfully",name); p=fopen("name","w");
 printf("\n%s File Opened",name); fclose(p);
 printf("\n%s File Closed",name);
 }
+```
+
 
 ### Output:
 ![Screenshot 2025-04-25 102527](https://github.com/user-attachments/assets/72377e8c-93d7-4711-b942-69f2fafe850b)
@@ -133,6 +141,7 @@ Use scanf to input the file name into the name array and the number of strings i
 5.	Return 0 to indicate successful program execution.
  
 ### Program:
+```
 #include <stdio.h> int main()
 {
 FILE *p;
@@ -143,7 +152,7 @@ scanf("%s",text); fputs(text,p);
 }
 printf("\nData added Successfully");
 
-}
+}```
 
 ### Output:
 ![Screenshot 2025-04-25 102747](https://github.com/user-attachments/assets/1b0a0e5e-dcd8-48fe-80ae-e7ea119d5071)
@@ -183,7 +192,7 @@ The aim of this program is to dynamically allocate memory to store information a
 13.End the program by returning 0.
 
 ### Program:
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 struct Subject
@@ -213,7 +222,7 @@ int main()
     free (s);
   
  return 0;
- }
+ }```
  
 ### Output:
 
