@@ -1,3 +1,5 @@
+
+
 EXP NO:21 C PROGRAM TO CREATE A FUNCTION TO FIND THE GREATEST NUMBER
 Aim:
 To write a C program to create a function to find the greatest number
@@ -10,7 +12,7 @@ Algorithm:
 5.	Call the max_of_four function with the input integers and store the result in the greater variable
  
 Program:
-````
+```
 #include<stdio.h>
 int max_of_four(int a,int b,int c,int d)
 {
